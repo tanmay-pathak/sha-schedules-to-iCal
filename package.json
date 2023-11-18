@@ -1,0 +1,14 @@
+{
+  "name": "sha-schedule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "schedule.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ics": "^3.5.0"
+  }
+}
