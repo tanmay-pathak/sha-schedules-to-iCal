@@ -1,14 +1,25 @@
 {
-  "name": "sha-schedule",
+  "name": "sha-schedule-converter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple utility to convert SHA schedule to iCal format.",
   "main": "schedule.js",
   "scripts": {
+    "start": "ts-node schedule.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Tanmay Pathak",
   "license": "ISC",
   "dependencies": {
     "ics": "^3.5.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "eslint": "^8.54.0",
+    "eslint-config-standard-with-typescript": "^39.1.1",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^16.3.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
   }
 }
